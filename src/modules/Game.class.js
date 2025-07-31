@@ -40,6 +40,7 @@ class Game {
     this.status = 'playing';
 
     this.addCell();
+    this.addCell();
   }
 
   restart() {
