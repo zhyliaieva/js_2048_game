@@ -185,7 +185,7 @@ class Game {
     const newState = [];
 
     for (let i = 0; i <= this.size - 1; i++) {
-      newState.push( [state[0][i], state[1][i], state[2][i], state[3][i]]);
+      newState.push([state[0][i], state[1][i], state[2][i], state[3][i]]);
     }
 
     return newState;
